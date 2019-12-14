@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/b2"
+    tools:context=".ActivityMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:text="Keanekaragaman indonesia"
+            android:textColor="@android:color/black"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/Tari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text=" Keanekaragaman Tari di indonesia "
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp"
+            />
+
+        <Button
+            android:id="@+id/Wisata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text=" Tempat paling eksotik di indonesia "
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp"
+            />
+
+        <Button
+            android:id="@+id/Makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text=" Makanan khas yang ada di indonesia Bgt "
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp"
+            />
+
+
+        <Button
+            android:id="@+id/Rumahadat"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text=" Profil Saya"
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+</ScrollView>

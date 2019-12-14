@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/f1"
+    tools:context=".ActivityTari">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cak"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:text=" Tari Kecak "
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:text="Tari Kecak adalah pertunjukan dramatari seni khas Bali yang lebih utama menceritakan mengenai Ramayana dan dimainkan terutama oleh laki-laki. Tarian ini dipertunjukkan oleh banyak penari laki-laki yang duduk berbaris melingkar dan dengan irama tertentu menyerukan dan mengangkat kedua lengan, menggambarkan kisah Ramayana saat barisan kera membantu Rama melawan Rahwana."
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/gen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:background="@android:color/holo_orange_dark"
+            android:fontFamily="sans-serif-black"
+            android:text=" Tari Gending sriwijaya "
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:text="tari gending sriwijaya adalah tarian yang berasal dari kebudayaan kerajaan Sriwijaya di masa silam. Tarian ini adalah suatu simbol kejayaan, kekuatan, dan kedigdayaan bangsa Sumatera di kancah regional pada zaman keemasannya."
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/tari_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text=" Back " />
+
+
+    </LinearLayout>
+</ScrollView>
